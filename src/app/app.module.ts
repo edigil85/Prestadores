@@ -17,11 +17,13 @@ import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 import { UtilService } from './shared/service/util.service';
 
 import { AutorizacionesComponent } from './components/autorizaciones/autorizaciones.component';
+import { PrestadoresComponent } from './components/prestadores/prestadores.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AutorizacionesComponent
+    AutorizacionesComponent,
+    PrestadoresComponent
   ],
   imports: [
     BrowserModule,
